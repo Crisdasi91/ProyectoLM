@@ -1,0 +1,37 @@
+
+.cabeceraPagina{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; 
+}
+.cabeceraPagina img{
+    width: 100%;
+}
+.piePagina{
+    width: 90%;
+    background-color: black;
+    border: 5px solid wheat;
+    text-align: center;
+    margin: 0 auto; 
+}
+.piePagina span{
+    color: lightgoldenrodyellow;
+}
+.cuerpoPagina{
+    width: 90%;
+}
+#formDiv{
+    width: 100%;
+    text-align: center;
+}
+#formTitle{
+    color: chocolate;
+    background-color: khaki;
+    text-align: left;
+    
+}
+#formContent{
+   display: flexbox;
+   text-align: center;
+    
+}

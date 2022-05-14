@@ -1,0 +1,48 @@
+
+.cabeceraPagina{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; 
+}
+.cabeceraPagina img{
+    width: 100%;
+}
+.piePagina{
+    margin: 0 auto; 
+    background-color: black;
+    border: 5px solid wheat;
+    width: 90%;
+    text-align: center;
+    
+}
+.piePagina span{
+    color: lightgoldenrodyellow;
+}
+.contenidoPagina{
+    display: flex;
+    width: 90%;
+    margin: 0 auto; 
+}
+#indexList{
+font-size: 12pt;
+line-height: 2.5em;
+width: 45%;
+float: left;
+border: 5px solid silver ;
+}
+#imagenLateral{
+width: 50%;
+float: right;
+text-align: right;
+}
+#contenidoIndex{
+    width:100%;
+}
+
+#tituloContenido{
+    text-align: center;
+    font-weight: bold;
+    
+    background-color: silver;
+    color: #333333;
+}

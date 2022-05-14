@@ -1,0 +1,20 @@
+
+.cabeceraPagina{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; 
+}
+.cabeceraPagina img{
+    width: 100%;
+}
+.piePagina{
+    width: 90%;
+    background-color: black;
+    border: 5px solid wheat;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; 
+}
+.piePagina span{
+    color: lightgoldenrodyellow;
+}
