@@ -1,48 +1,68 @@
-
-.cabeceraPagina{
-    width: 90%;
-    text-align: center;
-    margin: 0 auto; 
+.cuerpoPagina{
+   
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.cabeceraPagina img{
+.cabeceraPagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-bottom: 2px solid lightskyblue;
+}
+.listMenu{
+    width: 80%;
+    margin: auto;
+}
+#imgMenu{
+   width: 5%;
+   padding-left: 2%;
+}
+#imgMenu img{
     width: 100%;
 }
-.piePagina{
-    margin: 0 auto; 
-    background-color: black;
-    border: 5px solid wheat;
-    width: 90%;
-    text-align: center;
-    
-}
-.piePagina span{
-    color: lightgoldenrodyellow;
-}
-.contenidoPagina{
-    display: flex;
-    width: 90%;
-    margin: 0 auto; 
-}
-#indexList{
-font-size: 12pt;
-line-height: 2.5em;
-width: 45%;
-float: left;
-border: 5px solid silver ;
-}
-#imagenLateral{
-width: 50%;
-float: right;
-text-align: right;
-}
-#contenidoIndex{
-    width:100%;
+.listMenu ul{
+   display: flex;
+   list-style: none;
+   color: whitesmoke;
+   font-size: 20pt;
+   justify-content: space-between;
+
 }
 
-#tituloContenido{
-    text-align: center;
-    font-weight: bold;
-    
-    background-color: silver;
-    color: #333333;
+.listMenu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
+
+.piePagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-top: 2px solid lightskyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+
+.listMenu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#contenidoPagina{
+    margin: auto;
+    text-align: center;
+}
+
+
+html {
+    background: url(img/background_index.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+

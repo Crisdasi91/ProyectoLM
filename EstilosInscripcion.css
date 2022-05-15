@@ -1,37 +1,119 @@
-
-.cabeceraPagina{
-    width: 90%;
-    text-align: center;
-    margin: 0 auto; 
-}
-.cabeceraPagina img{
-    width: 100%;
-}
-.piePagina{
-    width: 90%;
-    background-color: black;
-    border: 5px solid wheat;
-    text-align: center;
-    margin: 0 auto; 
-}
-.piePagina span{
-    color: lightgoldenrodyellow;
-}
 .cuerpoPagina{
-    width: 90%;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#formDiv{
+.cabeceraPagina{
+    background-color: rgb(4, 16, 42);
     width: 100%;
-    text-align: center;
+    display: flex; 
+    border-bottom: 2px solid lightskyblue;
 }
-#formTitle{
-    color: chocolate;
-    background-color: khaki;
+.listMenu{
+    width: 80%;
+    margin: auto;
+}
+#imgMenu{
+   width: 5%;
+   padding-left: 2%;
+}
+#imgMenu img{
+    width: 100%;
+}
+.listMenu ul{
+   display: flex;
+   list-style: none;
+   color: whitesmoke;
+   font-size: 20pt;
+   justify-content: space-between;
+
+}
+
+.listMenu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.piePagina{
+    background-color: rgb(4, 16, 42);
+    width: 100%;
+    display: flex; 
+    border-top: 2px solid lightskyblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+.listMenu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#contenidoPagina{
+    border: 2px solid lightskyblue;
+    
     text-align: left;
-    
+    padding: 20px;
+    background-color: rgb(4,16,42);
+    color: whitesmoke;
+    line-height: 2em;
+    height: 550px;
+    margin:auto;
 }
-#formContent{
-   display: flexbox;
-   text-align: center;
-    
+#terminos{
+    text-align: end;
+}
+#contenidoPagina div{
+    margin: .4em 0;
+}
+#contenidoPagina label{
+    width: 28%;
+    float: left;
+    font-size: 12pt;
+}
+#imageForm{
+    width: 30%;
+    margin-left:75%;
+    float: right;
+}
+#contenidoPagina legend{
+    font-size: 18pt;
+    color: lightskyblue;
+}
+
+#imageForm a{
+    cursor: pointer; 
+}
+
+#imageForm img{
+    margin: 0 0 4px 0;
+    width: 80%;
+}
+
+#imageForm img:hover{
+    margin: 2px 0 2px 0;
+    width: 80%;
+}
+#formContent input{
+    border: 2px solid lightskyblue;
+    outline: 0px;
+}
+#formContent select{
+    border: 2px solid lightskyblue;
+    outline: 0px;
+}
+html {
+    background: url(img/background_index.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 45%;
 }
