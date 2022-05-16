@@ -166,11 +166,20 @@
     text-decoration: none;
     color: whitesmoke;
 }
-#img_quantumfracture{
-    width: 60%;
+#img_ficha{
+    width: 65%;
     margin-left: 50px;
 }
-#img_lagataSchrodinger{
-    width: 60%;
-    margin-left: 50px;
+#menu_lateral{
+    float: left;
+    border:5px solid lightskyblue;
+    text-align: left;
+    line-height: 2em;
+    padding: 20px;
+    margin: 20px;
+}
+#menu_lateral a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black ;
 }
