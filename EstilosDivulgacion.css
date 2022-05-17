@@ -176,7 +176,8 @@
     text-align: left;
     line-height: 2em;
     padding: 20px;
-    margin: 20px;
+    margin: 80px 20px 20px 20px;
+    position:fixed;
 }
 #menu_lateral a{
     text-decoration: none;
