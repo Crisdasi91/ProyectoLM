@@ -184,3 +184,14 @@
     cursor: pointer;
     color: black ;
 }
+
+#lista-fichas{
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+
+#selected-menu{
+    text-decoration: underline;
+}

@@ -63,3 +63,31 @@
     background-color: palevioletred;
     color: black;
 }
+.grid_container{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr); 
+ padding:20px;
+ margin: auto;
+ width: 90%;
+ margin-bottom: 20px;
+}
+
+.grid-item{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+    margin:auto;
+}
+
+.grid-item img {
+    width: 450px;
+}
+
+.grid-item:hover{
+    text-decoration: underline;
+}
+
+#selected-menu{
+    text-decoration: underline;
+}
